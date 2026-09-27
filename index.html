@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <meta name="theme-color" content="#143b50" />
+    <meta name="description" content="Saúl Martinez Castellanos is a PhD student in Economics at the European University Institute. His research interests include political economy, social identity, inequality, and redistribution." />
+    <title>Saúl Martinez Castellanos | PhD Researcher in Economics</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='11' fill='%23143b50'/%3E%3Cpath d='M16 44V20h31M17 44l10-11 7 5 14-17' fill='none' stroke='%23e0b878' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+    <style>
+      :root { font-family: Arial, Helvetica, sans-serif; color: #173649; background: #fff; font-synthesis: none; }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { margin: 0; min-width: 280px; }
+      a { color: inherit; }
+      a:focus-visible, button:focus-visible { outline: 3px solid #b18b52; outline-offset: 4px; }
+      [hidden] { display: none !important; }
+      .shell { width: min(1120px, calc(100% - 72px)); margin: 0 auto; }
+      .site-header { background: #143b50; color: #fff; }
+      .topline { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 112px; }
+      .identity { display: flex; flex-direction: column; gap: 6px; text-decoration: none; }
+      .identity strong { font-family: Georgia, 'Times New Roman', serif; font-size: 1.72rem; font-weight: 500; letter-spacing: -.025em; }
+      .identity span { color: #c7d9e2; font-size: .8rem; letter-spacing: .16em; text-transform: uppercase; }
+      .header-note { color: #c7d9e2; font-size: .92rem; text-align: right; line-height: 1.5; }
+      .nav-wrap { border-top: 1px solid rgba(255,255,255,.19); }
+      .tabs { display: flex; gap: 38px; align-items: stretch; }
+      .tab { position: relative; display: inline-flex; align-items: center; min-height: 58px; color: #c7d9e2; text-decoration: none; font-size: .92rem; font-weight: 600; letter-spacing: .015em; border-bottom: 3px solid transparent; }
+      .tab:hover, .tab[aria-selected="true"] { color: #fff; }
+      .tab[aria-selected="true"] { border-bottom-color: #d8b278; }
+      main { min-height: calc(100vh - 255px); }
+      .panel { padding-top: 68px; padding-bottom: 95px; }
+      .eyebrow { margin: 0 0 16px; color: #4d7484; font-size: .77rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; font-weight: 500; }
+      h1 { max-width: 680px; font-size: clamp(2.9rem, 5.4vw, 5.2rem); line-height: 1.05; letter-spacing: -.045em; margin-bottom: 28px; }
+      h2 { font-size: clamp(2.5rem, 4.4vw, 4rem); line-height: 1.08; letter-spacing: -.04em; margin-bottom: 22px; }
+      h3 { font-size: 1.38rem; line-height: 1.25; margin-bottom: 9px; }
+      p { font-size: 1.04rem; line-height: 1.75; }
+      .intro-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(275px, .78fr); gap: clamp(48px, 8vw, 118px); align-items: start; }
+      .intro-copy { padding-top: 24px; }
+      .intro-copy .lead { max-width: 610px; font-size: clamp(1.18rem, 1.65vw, 1.38rem); line-height: 1.65; color: #26485a; }
+      .intro-copy p:not(.eyebrow) { max-width: 630px; }
+      .portrait-frame { margin: 0; position: relative; width: min(100%, 365px); justify-self: end; }
+      .portrait-frame::before { content: ''; position: absolute; top: -17px; right: -17px; width: 38%; height: 38%; border-top: 2px solid #b5935e; border-right: 2px solid #b5935e; pointer-events: none; }
+      .portrait-frame img { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; background: #e8e4da; }
+      .portrait-frame figcaption { margin-top: 14px; font-size: .85rem; color: #607682; }
+      .actions { display: flex; flex-wrap: wrap; align-items: end; gap: 14px 30px; margin-top: 31px; }
+      .contact-detail { display: flex; flex-direction: column; gap: 6px; }
+      .contact-detail span { color: #4d7484; font-size: .77rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+      .contact-detail a { color: #165473; font-size: 1.02rem; line-height: 1.5; text-underline-offset: 4px; }
+      .button-link { display: inline-flex; align-items: center; justify-content: center; padding: 13px 19px; background: #143b50; border: 1px solid #143b50; color: #fff; text-decoration: none; font-weight: 600; font-size: .91rem; transition: background .15s ease, color .15s ease; }
+      .button-link:hover { background: #28556a; }
+      .text-link { display: inline-flex; align-items: center; padding: 12px 0; color: #165473; text-decoration-thickness: 1px; text-underline-offset: 4px; font-weight: 600; font-size: .94rem; }
+      .text-link:hover { color: #0c354b; }
+      .section-intro { max-width: 710px; margin-bottom: 44px; color: #36586a; }
+      .rule-heading { display: flex; align-items: center; gap: 18px; margin: 0 0 23px; font-size: .79rem; font-weight: 700; text-transform: uppercase; letter-spacing: .16em; color: #416778; }
+      .rule-heading::after { content: ''; height: 1px; flex: 1; background: #ccd9df; }
+      .topics { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 62px; padding: 0; list-style: none; }
+      .topics li { border: 1px solid #cddde3; background: #f5fafb; padding: 11px 15px; font-size: .94rem; color: #24485b; }
+      .work-list { border-top: 1px solid #b6cbd3; }
+      .work-item { display: grid; grid-template-columns: 125px 1fr; gap: 35px; padding: 28px 0 31px; border-bottom: 1px solid #d5e0e5; }
+      .work-number { font-size: .82rem; font-weight: 700; color: #4c7181; letter-spacing: .12em; text-transform: uppercase; padding-top: 6px; }
+      .work-item p { margin: 0; color: #5a7380; }
+      .cv-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 20px; margin-bottom: 45px; }
+      .cv-heading h2 { margin-bottom: 0; }
+      .cv-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 60px 84px; }
+      .cv-block { border-top: 1px solid #b6cbd3; padding-top: 18px; }
+      .cv-block h3 { font-family: Arial, Helvetica, sans-serif; font-size: .82rem; color: #416778; font-weight: 700; text-transform: uppercase; letter-spacing: .16em; margin-bottom: 22px; }
+      .cv-entry { display: grid; grid-template-columns: 91px 1fr; gap: 15px; margin-bottom: 24px; }
+      .cv-entry:last-child { margin-bottom: 0; }
+      .cv-date { color: #597485; font-size: .85rem; line-height: 1.5; }
+      .cv-entry strong { display: block; font-size: .98rem; font-weight: 600; line-height: 1.45; color: #19394b; }
+      .cv-entry span { display: block; margin-top: 3px; color: #5d7581; font-size: .91rem; line-height: 1.5; }
+      .site-footer { border-top: 1px solid #d5e0e5; color: #5b7581; }
+      .footer-inner { min-height: 81px; display: flex; align-items: center; justify-content: space-between; gap: 18px; font-size: .84rem; }
+      .site-footer a { color: #245a73; text-underline-offset: 3px; }
+      @media (max-width: 760px) {
+        .shell { width: min(100% - 40px, 620px); }
+        .topline { min-height: 96px; }
+        .identity strong { font-size: 1.46rem; }
+        .header-note { display: none; }
+        .tabs { gap: 27px; }
+        .tab { min-height: 54px; }
+        .panel { padding-top: 49px; padding-bottom: 65px; }
+        .intro-grid { grid-template-columns: 1fr; gap: 48px; }
+        .intro-copy { padding-top: 0; }
+        .portrait-frame { width: min(100%, 340px); justify-self: start; }
+        .cv-grid { grid-template-columns: 1fr; gap: 44px; }
+        .section-intro { margin-bottom: 34px; }
+      }
+      @media (max-width: 470px) {
+        .shell { width: calc(100% - 34px); }
+        h1 { font-size: clamp(2.6rem, 12vw, 3.4rem); }
+        .portrait-frame::before { right: -9px; top: -9px; }
+        .work-item { grid-template-columns: 1fr; gap: 11px; }
+        .cv-entry { grid-template-columns: 1fr; gap: 3px; }
+        .footer-inner { align-items: flex-start; flex-direction: column; justify-content: center; padding: 19px 0; gap: 5px; }
+      }
+      @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .button-link { transition: none; } }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell topline">
+        <a class="identity" href="#about" aria-label="Saúl Martinez Castellanos, introduction">
+          <strong>Saúl Martinez Castellanos</strong>
+          <span>Economics · EUI</span>
+        </a>
+        <div class="header-note">European University Institute<br />Florence, Italy</div>
+      </div>
+      <div class="nav-wrap">
+        <nav class="shell tabs" aria-label="Main navigation" role="tablist">
+          <a class="tab" id="tab-about" href="#about" role="tab" aria-controls="about" aria-selected="true" tabindex="0">About</a>
+          <a class="tab" id="tab-research" href="#research" role="tab" aria-controls="research" aria-selected="false" tabindex="-1">Research</a>
+          <a class="tab" id="tab-cv" href="#cv" role="tab" aria-controls="cv" aria-selected="false" tabindex="-1">CV</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="shell">
+      <section class="panel" id="about" role="tabpanel" aria-labelledby="tab-about" tabindex="0">
+        <div class="intro-grid">
+          <div class="intro-copy">
+            <p class="eyebrow">About</p>
+            <h1>Saúl Martinez Castellanos</h1>
+            <p class="lead">Hi! I am a third-year PhD researcher in Economics at the European University Institute in Florence.</p>
+            <p>My research interests are in political economy, social identity, income inequality, and redistribution.</p>
+            <div class="actions">
+              <div class="contact-detail"><span>Contact</span><a href="mailto:saul.martinez@eui.eu">saul.martinez@eui.eu</a></div>
+              <a class="text-link" href="#cv">View CV</a>
+            </div>
+          </div>
+          <figure class="portrait-frame">
+            <img src="assets/saul-martinez.jpg" alt="Portrait of Saúl Martinez Castellanos" width="1000" height="1000" fetchpriority="high" />
+            <figcaption>Florence, Italy</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="panel" id="research" role="tabpanel" aria-labelledby="tab-research" tabindex="0">
+        <p class="eyebrow">Research</p>
+        <h2>Research</h2>
+        <p class="section-intro">I study questions at the intersection of political economy, social identity, and economic inequality.</p>
+        <div class="rule-heading">Research interests</div>
+        <ul class="topics">
+          <li>Political economy</li>
+          <li>Social identity</li>
+          <li>Income inequality</li>
+          <li>Redistribution</li>
+        </ul>
+        <div class="rule-heading">Work in progress</div>
+        <div class="work-list">
+          <article class="work-item">
+            <span class="work-number">Project 01</span>
+            <div><h3>Vote as you pray: Exposure to Catholic Identity and voting preferences.</h3></div>
+          </article>
+          <article class="work-item">
+            <span class="work-number">Project 02</span>
+            <div>
+              <h3>Prompting Democracy: A Field Experiment on Generative AI and Participatory Politics</h3>
+              <p>With Vincenzo Galasso, Matteo Giugovaz, Matteo Muntoni, and Tommaso Nannicini.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel" id="cv" role="tabpanel" aria-labelledby="tab-cv" tabindex="0">
+        <div class="cv-heading">
+          <div><p class="eyebrow">Curriculum vitae</p><h2>Academic CV</h2></div>
+          <a class="button-link" href="assets/Saul_Martinez_CV.pdf" download="Saul_Martinez_Castellanos_CV.pdf">Download full CV (PDF)</a>
+        </div>
+        <div class="cv-grid">
+          <section class="cv-block" aria-labelledby="education-heading">
+            <h3 id="education-heading">Education</h3>
+            <div class="cv-entry"><div class="cv-date">2024–present</div><div><strong>PhD in Economics</strong><span>European University Institute · Florence, Italy</span></div></div>
+            <div class="cv-entry"><div class="cv-date">2021–2022</div><div><strong>MSc in Economics</strong><span>Barcelona School of Economics · Barcelona, Spain</span></div></div>
+            <div class="cv-entry"><div class="cv-date">2017–2021</div><div><strong>BS in Economics</strong><span>Universidad Carlos III de Madrid · Madrid, Spain</span></div></div>
+          </section>
+          <section class="cv-block" aria-labelledby="experience-heading">
+            <h3 id="experience-heading">Research &amp; teaching experience</h3>
+            <div class="cv-entry"><div class="cv-date">2026</div><div><strong>Research assistant to Prof. Tommaso Nannicini</strong><span>European University Institute</span></div></div>
+            <div class="cv-entry"><div class="cv-date">2025</div><div><strong>Teaching assistant, Quantitative Methods</strong><span>European University Institute</span></div></div>
+            <div class="cv-entry"><div class="cv-date">2022–2024</div><div><strong>Analyst</strong><span>European Central Bank</span></div></div>
+            <div class="cv-entry"><div class="cv-date">2022</div><div><strong>Research assistant</strong><span>World Management Survey (LSE)</span></div></div>
+          </section>
+          <section class="cv-block" aria-labelledby="awards-heading">
+            <h3 id="awards-heading">Awards &amp; scholarships</h3>
+            <div class="cv-entry"><div class="cv-date">2024</div><div><strong>Salvador de Madariaga Scholarship</strong><span>Spanish Ministry of Science and Universities</span></div></div>
+            <div class="cv-entry"><div class="cv-date">2021</div><div><strong>Special distinction, Advanced Microeconomics</strong><span>Universidad Carlos III de Madrid</span></div></div>
+            <div class="cv-entry"><div class="cv-date">2017</div><div><strong>Matrícula de Honor Scholarship</strong><span>Spanish Ministry of Science and Universities</span></div></div>
+          </section>
+          <section class="cv-block" aria-labelledby="conferences-heading">
+            <h3 id="conferences-heading">Workshops &amp; conferences</h3>
+            <div class="cv-entry"><div class="cv-date">2026</div><div><strong>IRES 2026 Student Graduate Workshop</strong><span>Chapman University</span></div></div>
+            <div class="cv-entry"><div class="cv-date">2026</div><div><strong>PEARL PhD Workshop</strong><span>European University Institute</span></div></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner"><span>Saúl Martinez Castellanos · European University Institute</span><a href="mailto:saul.martinez@eui.eu">saul.martinez@eui.eu</a></div>
+    </footer>
+
+    <script>
+      (() => {
+        const names = ['about', 'research', 'cv'];
+        const tabs = names.map(name => document.getElementById(`tab-${name}`));
+        const panels = names.map(name => document.getElementById(name));
+        function activate(name, focusTab = false) {
+          const index = Math.max(0, names.indexOf(name));
+          tabs.forEach((tab, i) => {
+            const selected = i === index;
+            tab.setAttribute('aria-selected', String(selected));
+            tab.tabIndex = selected ? 0 : -1;
+            panels[i].hidden = !selected;
+          });
+          if (focusTab) tabs[index].focus();
+        }
+        function fromHash() { activate(location.hash.slice(1)); }
+        tabs.forEach((tab, index) => {
+          tab.addEventListener('click', event => {
+            event.preventDefault();
+            const name = names[index];
+            if (location.hash !== `#${name}`) history.pushState(null, '', `#${name}`);
+            activate(name);
+          });
+          tab.addEventListener('keydown', event => {
+            let next;
+            if (event.key === 'ArrowRight') next = (index + 1) % tabs.length;
+            else if (event.key === 'ArrowLeft') next = (index - 1 + tabs.length) % tabs.length;
+            else if (event.key === 'Home') next = 0;
+            else if (event.key === 'End') next = tabs.length - 1;
+            else return;
+            event.preventDefault();
+            history.pushState(null, '', `#${names[next]}`);
+            activate(names[next], true);
+          });
+        });
+        document.querySelectorAll('a[href="#cv"], a[href="#about"]').forEach(link => {
+          if (link.classList.contains('tab')) return;
+          link.addEventListener('click', event => {
+            event.preventDefault();
+            const name = link.getAttribute('href').slice(1);
+            history.pushState(null, '', `#${name}`);
+            activate(name);
+            document.querySelector('main').scrollIntoView({block: 'start'});
+          });
+        });
+        window.addEventListener('hashchange', fromHash);
+        window.addEventListener('popstate', fromHash);
+        fromHash();
+      })();
+    </script>
+  </body>
+</html>
