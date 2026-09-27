@@ -30,7 +30,6 @@
       .tab[aria-selected="true"] { border-bottom-color: #d8b278; }
       main { min-height: calc(100vh - 255px); }
       .panel { padding-top: 68px; padding-bottom: 95px; }
-      .eyebrow { margin: 0 0 16px; color: #4d7484; font-size: .77rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
       h1, h2, h3, p { margin-top: 0; }
       h1, h2, h3 { font-family: Georgia, 'Times New Roman', serif; font-weight: 500; }
       h1 { max-width: 680px; font-size: clamp(2.9rem, 5.4vw, 5.2rem); line-height: 1.05; letter-spacing: -.045em; margin-bottom: 28px; }
@@ -40,7 +39,7 @@
       .intro-grid { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(275px, .78fr); gap: clamp(48px, 8vw, 118px); align-items: start; }
       .intro-copy { padding-top: 24px; }
       .intro-copy .lead { max-width: 610px; font-size: clamp(1.18rem, 1.65vw, 1.38rem); line-height: 1.65; color: #26485a; }
-      .intro-copy p:not(.eyebrow) { max-width: 630px; }
+      .intro-copy p { max-width: 630px; }
       .portrait-frame { margin: 0; position: relative; width: min(100%, 365px); justify-self: end; }
       .portrait-frame::before { content: ''; position: absolute; top: -17px; right: -17px; width: 38%; height: 38%; border-top: 2px solid #b5935e; border-right: 2px solid #b5935e; pointer-events: none; }
       .portrait-frame img { display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: contain; background: #e8e4da; }
@@ -119,7 +118,6 @@
       <section class="panel" id="about" role="tabpanel" aria-labelledby="tab-about" tabindex="0">
         <div class="intro-grid">
           <div class="intro-copy">
-            <p class="eyebrow">About</p>
             <h1>Saúl Martinez Castellanos</h1>
             <p class="lead">Hi! I am a third-year PhD researcher in Economics at the European University Institute in Florence.</p>
             <p>My research interests are in political economy, social identity, income inequality, and redistribution.</p>
@@ -134,7 +132,6 @@
       </section>
 
       <section class="panel" id="research" role="tabpanel" aria-labelledby="tab-research" tabindex="0">
-        <p class="eyebrow">Research</p>
         <h2>Research</h2>
         <p class="section-intro">I study questions at the intersection of political economy, social identity, and economic inequality.</p>
         <div class="rule-heading">Research interests</div>
@@ -162,7 +159,7 @@
 
       <section class="panel" id="cv" role="tabpanel" aria-labelledby="tab-cv" tabindex="0">
         <div class="cv-heading">
-          <div><p class="eyebrow">Curriculum vitae</p><h2>Academic CV</h2></div>
+          <div><h2>Academic CV</h2></div>
           <a class="button-link" href="assets/Saul_Martinez_CV.pdf" download="Saul_Martinez_Castellanos_CV.pdf">Download full CV (PDF)</a>
         </div>
         <div class="cv-grid">
